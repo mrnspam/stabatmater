@@ -1,0 +1,22 @@
+baseURL = "https://stabatmater.info/"
+languageCode = "en"
+title = "Stabat Mater Foundation"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "foundation"
+    name = "Foundation"
+    url = "/stabat-mater-foundation/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "composers"
+    name = "Composers"
+    url = "/stabat-mater-composer/alphabetically/"
+    weight = 3
