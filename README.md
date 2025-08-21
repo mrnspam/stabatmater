@@ -1,4 +1,4 @@
-# Stabat Mater
+# Stabat Mater 
 
 This repository contains the source for a Hugo-generated site.
 
