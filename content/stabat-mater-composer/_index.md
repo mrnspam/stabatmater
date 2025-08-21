@@ -1,4 +1,7 @@
 ---
 title: "Composers"
 ---
-A growing directory of Stabat Mater composers. This page will eventually list composers and their works.
+
+
+Browse the growing directory of Stabat Mater composers. Here you can explore works alphabetically, chronologically, by country of origin and duration. More entries will appear as the migration progresses.
+

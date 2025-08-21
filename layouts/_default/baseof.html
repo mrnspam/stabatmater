@@ -6,20 +6,12 @@
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        {{ range .Site.Menus.main }}
-        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-        {{ end }}
-      </ul>
-    </nav>
-  </header>
+
+  {{ partial "header.html" . }}
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  <footer>
-    <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
-  </footer>
+  {{ partial "footer.html" . }}
+
 </body>
 </html>
