@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="branding">
+    <a href="{{ "/" | relURL }}">
+      <img src="https://stabatmater.info/wp-content/uploads/2021/02/cropped-cropped-stabat-mater-beeld.png" alt="{{ .Site.Title }}" />
+    </a>
+    <div class="tagline">
+      <p class="site-title">The Ultimate Stabat Mater Website</p>
+      <p class="site-description">a musical journey through the ages</p>
+    </div>
+  </div>
+  <nav class="main-nav">
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ if .Page }}{{ .Page.RelPermalink }}{{ else }}{{ .URL | relURL }}{{ end }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

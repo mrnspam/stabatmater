@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.site-header {
+  background: #f8f8f8;
+  border-bottom: 4px solid #4a6572;
+}
+
+.site-header .branding {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.site-header img {
+  max-height: 80px;
+  height: auto;
+}
+
+.site-title {
+  font-family: 'Domine', serif;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.site-description {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.main-nav {
+  background: #4a6572;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  max-width: 960px;
+}
+
+.main-nav li {
+  margin: 0;
+}
+
+.main-nav a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  background: #394f5a;
+}
+
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f2f2f2;
+  color: #666;
+}
