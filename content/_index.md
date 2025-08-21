@@ -17,3 +17,4 @@ Initiator of this website, [Hans van der Velden](https://stabatmater.info/stabat
 ## Interested?
 
 We hope this site is helpful for music lovers, musicians, and composers! Would you like to learn more? Subscribe to the Newsletter or [read the blog](https://stabatmater.info/stabat-mater-blog/). Do you have any information about performances, recordings, videos, or CDs with Stabat Maters? [Please, let us know](https://stabatmater.info/contact/)!
+

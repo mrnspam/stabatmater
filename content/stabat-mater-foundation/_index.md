@@ -13,3 +13,4 @@ Hans van der Velden started collecting Stabat Maters in 1992. After five years, 
 When Hans died on December 28th, 2005, he possessed 211 different Stabat Mater compositions on CD. After his death, his spouse continued collecting Stabat Mater compositions and managing the site. In 1998 the Dutch Stabat Mater Foundation was founded, supporting concerts in St. Petrus Church in Oirschot every year until 2018.
 
 In 2020 the Ultimate Stabat Mater Website once again got an amazing offer from the Foundation for Sacred Music to renew and improve the site to get more visitors and ensure continuity in the future. For this purpose Hannie decided in June 2020 to create the Ultimate Stabat Mater website Foundation. This foundation aims, with its unique collection and expertise, to assist composers, musicians, and music lovers anywhere in the world and to guarantee the continued existence of the unique website so that collected knowledge and expertise will not be lost.
+
