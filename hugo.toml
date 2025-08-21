@@ -1,7 +1,6 @@
 baseURL = 'https://stabatmater.info/'
 languageCode = 'en'
 title = 'Stabat Mater Foundation'
-publishDir = 'docs'
 
 [menu]
   [[menu.main]]
