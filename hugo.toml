@@ -1,13 +1,18 @@
 baseURL = 'https://stabatmater.info/'
 languageCode = 'en'
 title = 'Stabat Mater Foundation'
+publishDir = 'docs'
 
 [menu]
   [[menu.main]]
-    name = 'Composers'
-    url = '/stabat-mater-composer/'
+    name = 'Home'
+    url = '/'
     weight = 1
   [[menu.main]]
-    name = 'Foundation'
-    url = '/stabat-mater-foundation/'
+    name = 'Composers'
+    pageRef = 'stabat-mater-composer'
     weight = 2
+  [[menu.main]]
+    name = 'About'
+    pageRef = 'stabat-mater-foundation'
+    weight = 3

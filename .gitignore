@@ -3,3 +3,9 @@
 /resources/
 # Hugo build lock file
 .hugo_build.lock
+
+# Generated site
+docs/
+
+# External images
+static/img/

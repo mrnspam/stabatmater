@@ -1,0 +1,40 @@
+<header class="site-header has-header-right">
+  <div class="wrap">
+    <div class="site-header-row row middle-xs between-xs">
+      <div class="title-area col col-xs-auto start-xs">
+        <p class="site-title">
+          <a href="{{ "/" | relURL }}" rel="home">
+            <img src="https://stabatmater.info/wp-content/uploads/2021/02/cropped-cropped-stabat-mater-beeld.png" class="custom-logo" alt="{{ .Site.Title }}" />
+          </a>
+        </p>
+        <p class="site-description screen-reader-text">a musical journey through the ages...</p>
+      </div>
+      <div class="header-right col col-xs text-xs-right">
+        <aside class="widget-area">
+          <h2 class="genesis-sidebar-title screen-reader-text">Header Right</h2>
+          <section class="widget widget_text">
+            <div class="widget-wrap">
+              <div class="textwidget">
+                <p class="site-titel">The Ultimate Stabat Mater Website </p>
+                <p class="site-omschrijving">a musical journey through the ages</p>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </div>
+    <div id="mai-menu" class="mai-menu">
+      <div class="mai-menu-outer">
+        <div class="mai-menu-inner">
+          <div class="menu-hoofdmenu-container">
+            <ul id="menu-hoofdmenu" class="menu">
+              {{ range .Site.Menus.main }}
+              <li class="menu-item"><a href="{{ if .Page }}{{ .Page.RelPermalink }}{{ else }}{{ .URL | relURL }}{{ end }}">{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
